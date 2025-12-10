@@ -4,7 +4,7 @@ Permite crear, consultar, actualizar y eliminar información de clientes, produc
 El proyecto demuestra el uso de **DDL, DML y consultas SQL**, así como la correcta modelación de datos mediante un **diagrama ER**.
 
 ## Diagrama ER
-![Diagrama ER AE5_ABP](diagramas/ER_ae5_abp.png)
+![Diagrama ER AE5_ABP](diagramas/ER_AE5_ABP_Portafolio.png)
 
 El diagrama muestra las cuatro tablas principales y sus relaciones:  
 - `Clientes (1) -> Pedidos (N)`  
@@ -26,3 +26,4 @@ AE5_ABP/
 │ └─ consultas/ -> Consultas SQL
 │ └─ consultas_ejemplo.sql
 └─ README.md
+
