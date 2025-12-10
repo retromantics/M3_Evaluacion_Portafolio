@@ -1,8 +1,14 @@
-## Descripción
-Proyecto de gestión de pedidos y clientes utilizando **MySQL**.  
-Permite crear, consultar, actualizar y eliminar información de clientes, productos y pedidos, aplicando conceptos de bases de datos relacionales.  
-El proyecto demuestra el uso de **DDL, DML y consultas SQL**, así como la correcta modelación de datos mediante un **diagrama ER**.
+# M3_Evaluacion_Portafolio
 
+Repositorio del proyecto académico **M3_Evaluacion_Portafolio**, un sistema de gestión y evaluación con base de datos MySQL.
+
+---
+
+## Descripción del Proyecto
+
+Este proyecto fue desarrollado como parte de un módulo de evaluación académica. Permite gestionar información de manera estructurada y realizar consultas sobre la base de datos diseñada. Incluye diagramas, scripts SQL y ejemplos de manipulación de datos.
+
+---
 ## Diagrama ER
 ![Diagrama ER AE5_ABP](diagramas/ER_AE5_ABP_Portafolio.png)
 
@@ -14,16 +20,17 @@ Cada tabla incluye sus **claves primarias (PK)** y **foráneas (FK)**.
 
 ---
 
-## Estructura del repositorio
-AE5_ABP/
-├─ diagramas/ -> Diagrama ER
-│ └─ ER_ae5_abp.png
-├─ sql/
-│ ├─ ddl/ -> Creación de tablas
-│ │ └─ crear_tablas.sql
-│ ├─ dml/ -> Inserción, actualización y eliminación de datos
-│ │ └─ manipulacion_datos.sql
-│ └─ consultas/ -> Consultas SQL
-│ └─ consultas_ejemplo.sql
-└─ README.md
+## Estructura del Proyecto
+```text
+M3_Evaluacion_Portafolio/
+├── diagramas/
+│   └── ER_ae5_abp.png          # Diagrama entidad-relación del proyecto
+├── sql/
+│   ├── ddl/
+│   │   └── crear_tablas.sql    # Scripts para crear tablas en la base de datos
+│   ├── dml/
+│   │   └── manipulacion_datos.sql  # Scripts para insertar datos de ejemplo
+│   └── consultas/
+│       └── consultas_ejemplo.sql   # Consultas de ejemplo sobre la base de datos
+└── README.md
 
